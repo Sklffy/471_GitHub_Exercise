@@ -90,7 +90,7 @@ public:
 
   void print() const { // Print the contents of the BST
     if (root == NULL) cout << "The BST is empty.\n";
-    else printhelp(root, 0);
+    else printPostOrder(root, 0);
   }
   
 };
